@@ -1,11 +1,11 @@
-header{
+header {
     display: flex;
     border: solid orangered 3px;
     height: 120px;
     align-items: flex-start;
 }
 
-.delicious{
+.delicious {
     display: flex;
     align-self: flex-start;
     border: solid violet 3px;
@@ -13,7 +13,7 @@ header{
     width: 50px;
 }
 
-.small-icons{
+.small-icons {
     display: flex;
     order:+2;
     align-self: flex-end;
@@ -22,4 +22,25 @@ header{
     border: solid violet 3px;
     height: 20px;
     width: 50px;
+}
+
+
+/* .hr-img {
+    background-image: image('../assets/hr-img.png');
+    border: 2px black;
+    width: 100%;
+
+} */ 
+/* will come back to */
+
+main {
+    border: solid blue 3px;
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    border: solid aqua 3px;
+    height: 300px;
+    width: 100%;
 }
