@@ -1,11 +1,11 @@
-header{
+header {
     display: flex;
-    border: solid orangered 3px;
+    border: solid #ff4500 3px;
     height: 120px;
     align-items: flex-start;
 }
 
-.delicious{
+.delicious {
     display: flex;
     align-self: flex-start;
     border: solid violet 3px;
@@ -13,7 +13,7 @@ header{
     width: 50px;
 }
 
-.small-icons{
+.small-icons {
     display: flex;
     order:+2;
     align-self: flex-end;
@@ -22,4 +22,69 @@ header{
     border: solid violet 3px;
     height: 20px;
     width: 50px;
+}
+
+
+/* .hr-img {
+    background-image: image('../assets/hr-img.png');
+    border: 2px black;
+    width: 100%;
+
+} */ 
+/* will come back to */
+
+main {
+    border: solid blue 3px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+.div-1 {
+    border: dotted orange 2px;
+    height: 100px;
+    width: 100px;
+}
+
+.div-2 {
+    border: dotted rebeccapurple 2px;
+    height: 100px;
+    width: 100px;
+}
+
+.chocolate-pizza {
+    justify-content: center;
+    align-content: center;
+    
+    /* padding: 50px; */
+    width: fit-content;
+    /* display: flexbox; */
+}
+
+p {
+    border: dotted violet 4px;
+    justify-self: center;
+    align-self: center;
+}
+
+.div-3 {
+    border: dotted green 2px;
+    align-self: flex-end;
+    height: 100px;
+    width: 100px;
+}
+
+
+/* there are 2 ul's what to do?  */
+ul {
+    border: red solid 2px;
+}
+
+footer {
+    border: solid aqua 3px;
+    height: 300px;
+    width: 100%;
 }
