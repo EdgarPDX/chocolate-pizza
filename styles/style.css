@@ -1,6 +1,6 @@
 header {
     display: flex;
-    border: solid orangered 3px;
+    border: solid #ff4500 3px;
     height: 120px;
     align-items: flex-start;
 }
@@ -37,6 +37,50 @@ main {
     border: solid blue 3px;
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+.div-1 {
+    border: dotted orange 2px;
+    height: 100px;
+    width: 100px;
+}
+
+.div-2 {
+    border: dotted rebeccapurple 2px;
+    height: 100px;
+    width: 100px;
+}
+
+.chocolate-pizza {
+    justify-content: center;
+    align-content: center;
+    
+    /* padding: 50px; */
+    width: fit-content;
+    /* display: flexbox; */
+}
+
+p {
+    border: dotted violet 4px;
+    justify-self: center;
+    align-self: center;
+}
+
+.div-3 {
+    border: dotted green 2px;
+    align-self: flex-end;
+    height: 100px;
+    width: 100px;
+}
+
+
+/* there are 2 ul's what to do?  */
+ul {
+    border: red solid 2px;
 }
 
 footer {
