@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    border: solid orangered 3px;
+    height: 120px;
+    align-items: flex-start;
+}
+
+.delicious{
+    display: flex;
+    align-self: flex-start;
+    border: solid violet 3px;
+    height: 20px;
+    width: 50px;
+}
+
+.small-icons{
+    display: flex;
+    order:+2;
+    align-self: flex-end;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    border: solid violet 3px;
+    height: 20px;
+    width: 50px;
+}
