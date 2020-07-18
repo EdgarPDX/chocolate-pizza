@@ -1,8 +1,13 @@
+body{
+    
+}
 header {
     display: flex;
     border: solid #ff4500 3px;
     height: 120px;
     align-items: flex-start;
+    width:901px;
+
 }
 
 .delicious {
@@ -15,13 +20,11 @@ header {
 
 .small-icons {
     display: flex;
-    order:+2;
     align-self: flex-end;
-    justify-content: flex-start;
-    flex-direction: row-reverse;
+    flex-direction: reverse;
     border: solid violet 3px;
-    height: 20px;
-    width: 50px;
+    height: auto;
+    width: 300px; 
 }
 
 
@@ -34,9 +37,10 @@ header {
 /* will come back to */
 
 main {
+    display: block;
     border: solid blue 3px;
     height: 100%;
-    width: 100%;
+    width: 901px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -58,33 +62,56 @@ main {
 .chocolate-pizza {
     justify-content: center;
     align-content: center;
-    
+    flex-wrap: wrap;
     /* padding: 50px; */
     width: fit-content;
     /* display: flexbox; */
 }
 
 p {
-    border: dotted violet 4px;
+    justify-self: center;
+    border: dotted white 10px;
     justify-self: center;
     align-self: center;
 }
 
 .div-3 {
-    border: dotted green 2px;
-    align-self: flex-end;
-    height: 100px;
-    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    border: dotted green px;
+    align-content: center;
+    background-image: url(../assets/list-bg.png);
+    height: 300px;
+    width: 900px;
+    justify-content: space-around;
 }
 
 
 /* there are 2 ul's what to do?  */
 ul {
+    list-style: outside circle;
     border: red solid 2px;
+    /* display:block; */
+    flex-wrap: wrap;
+    width: 413px;
+    
+}
+
+li{
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.left-list{
+    padding-left: 65px;
+    
+}
+.right-list{
+    
 }
 
 footer {
     border: solid aqua 3px;
     height: 300px;
-    width: 100%;
+    width: 901px;
 }
