@@ -1,6 +1,4 @@
-body{
-    
-}
+
 header {
     display: flex;
     border: solid #ff4500 3px;
@@ -106,9 +104,9 @@ li{
     padding-left: 65px;
     
 }
-.right-list{
+/* .right-list{
     
-}
+} */
 
 footer {
     border: solid aqua 3px;
